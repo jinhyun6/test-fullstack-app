@@ -48,7 +48,7 @@ jobs:
           --cpu 1 \
           --min-instances 0 \
           --max-instances 3 \
-          --set-env-vars DATABASE_URL="postgresql://postgres:e*m*#WT!0QojDl&575!Y@db.jrrguodrhzgkejxynuva.supabase.co:5432/postgres"
+          --set-env-vars DATABASE_URL="postgresql://postgres:hJ@H7IJSGmxsdIpGGfXr@db.fwfkgixgxosnjlqectmm.supabase.co:5432/postgres"
 
     - name: Get Service URL
       run: |
