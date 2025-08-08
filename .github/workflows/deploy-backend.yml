@@ -48,7 +48,9 @@ jobs:
           --cpu 1 \
           --min-instances 0 \
           --max-instances 3 \
-          --set-env-vars DATABASE_URL="postgresql://postgres:SKqFjO%^oo#Cj^G44^lL@db.xdcngtlhifplcqybqzma.supabase.co:5432/postgres"
+          --set-env-vars DATABASE_URL="postgresql://postgres:SKqFjO%^oo#Cj^G44^lL@db.xdcngtlhifplcqybqzma.supabase.co:5432/postgres" \
+          --set-env-vars NEXT_PUBLIC_API_URL="https://backend-backend-2nynlpabya-du.a.run.app" \
+          --set-env-vars ALLOWED_ORIGIN="https://test-fullstack-app.vercel.app"
 
     - name: Get Service URL
       run: |
